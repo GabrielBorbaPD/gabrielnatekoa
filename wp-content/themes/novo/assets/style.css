@@ -1,0 +1,188 @@
+/*
+Theme name: Novo
+Description: Tema personalizado para teste
+Author: Gabriel Leite Borba
+Author URI: https://remote.com/gabriel-gabriel
+version: 1.0
+*/
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif!important;
+	color: #3D3D3D!important;
+}
+
+
+/*menu*/
+
+.menu-area{
+	padding-top: 14px;
+}
+
+.menu-area img{
+	float: left;
+}
+
+.top-menu ul li{
+	display: inline;
+}
+
+.menu a {
+    text-transform: uppercase;
+    padding: 0 10px;
+    border-right: 1px solid;
+    font-size: 14px;
+    color: #585856;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    font-weight: 700;
+    padding: 0 20px;
+    border-right: 1px solid #3064AC;
+    color: #3064AC;
+    text-decoration: none;
+}
+
+
+/*header*/
+
+.header{
+	background: url(images/bg-header.png)no-repeat;
+	position: relative;
+	padding-top: 75px;
+}
+
+.header .chamada_inicial{
+	margin: 190px 0 50px 80px;
+}
+
+.header .chamada_inicial h1{
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.header .chamada_inicial p{
+	font-size: 20px;
+}
+
+.header .chamada_inicial .btn{
+	font-weight: 700;
+	font-size: 18px;
+	background: #35a8e0; /* Old browsers */
+    background: -moz-linear-gradient(left, #35a8e0 0%, #3064ac 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #35a8e0 0%,#3064ac 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #35a8e0 0%,#3064ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35a8e0', endColorstr='#3064ac',GradientType=1 ); /* IE6-9 */
+	width: 200px;
+    border-radius: 100px;
+    border: none;
+}
+
+.header .chamada_inicial .btn:hover{
+	box-shadow: 0px 10px 20px #00000030;
+    transition: 0.5s;
+}
+
+.header .imagem_inicial{
+	top: 110px;
+	position: relative;
+	z-index: 0;
+}
+
+.breadcrumb{
+	background: #fff!important;
+	float: right;
+}
+
+
+/*page*/
+
+.content{
+	z-index: 1000;
+    position: relative;
+    background: #F0F0F0;
+    padding: 100px 0 80px 0;
+}
+
+.title-front-page{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title {
+	text-align: center;
+	padding: 100px 0 80px;
+	font-size: 50px;
+}
+
+.risco{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.descricao-contato{
+	color #4A4A49;
+	margin-bottom: 26px;
+}
+
+
+.icon{
+	width: 120%;    
+	margin-bottom: 26px;
+}
+
+.icons{
+	position: relative;
+	left: -20px;
+}
+
+
+.clear{
+	clear:both;
+}
+
+
+/*footer*/
+
+.footer{
+	background: #2B2B2B;
+	padding: 80px 0;
+	color:#eaeaea;
+}
+
+.icon-rodape{
+	margin-left: 34px;
+}
+
+
+/*form*/
+
+input, textarea{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #B5B4B5;
+    margin-bottom: 30px!important;
+    width: 100%;
+}
+
+[type=submit]{
+	color:#fff;
+	font-weight: 700;
+	font-size: 18px;
+	background: #3064AC;
+    width: 160px;
+    border-radius: 70px;
+    border: none;
+    float: right;
+    text-transform: uppercase;
+}
+
+[type=submit]:hover{
+	box-shadow: 0px 10px 20px #00000030;
+    transition: 0.5s;
+    cursor: pointer;
+}
